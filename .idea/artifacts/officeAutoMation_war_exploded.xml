@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="officeAutoMation:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/officeAutoMation_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="officeAutoMation/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="officeAutoMation" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
