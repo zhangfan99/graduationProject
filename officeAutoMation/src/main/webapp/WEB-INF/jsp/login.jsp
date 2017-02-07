@@ -44,17 +44,17 @@
     </script>
 </head>
 <body>
-<form name="loginForm" action="${path}/member/login.do">
+<form name="loginForm" action="${path}/member/main.shtml" method="post">
     <dl class="admin_login">
         <dt>
             <strong>站点后台管理系统</strong>
             <em>Management System</em>
         </dt>
         <dd class="user_icon">
-            <input type="text" placeholder="账号" class="login_txtbx" name="username"/>
+            <input type="text" placeholder="账号" class="login_txtbx" name="username" id="username"/>
         </dd>
         <dd class="pwd_icon">
-            <input type="password" placeholder="密码" class="login_txtbx" name="password"/>
+            <input type="password" placeholder="密码" class="login_txtbx" name="password" id="password"/>
         </dd>
         <dd class="val_icon">
             <div class="checkcode">

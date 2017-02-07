@@ -38,6 +38,7 @@
 
     <servlet-mapping>
         <servlet-name>springmvc</servlet-name>
-        <url-pattern>*.do</url-pattern>
+        <url-pattern>*.shtml</url-pattern>
+        <url-pattern>*.json</url-pattern>
     </servlet-mapping>
 </web-app>

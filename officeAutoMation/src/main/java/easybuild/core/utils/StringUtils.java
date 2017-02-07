@@ -1,4 +1,4 @@
-package com.office.automation.utils;
+package easybuild.core.utils;
 
 /**
  * Created by zhangfan on 2017/1/20.

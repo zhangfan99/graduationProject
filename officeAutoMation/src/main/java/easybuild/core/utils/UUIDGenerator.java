@@ -1,4 +1,4 @@
-package com.office.automation.utils;
+package easybuild.core.utils;
 
 import java.util.UUID;
 

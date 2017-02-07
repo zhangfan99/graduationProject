@@ -1,8 +1,8 @@
 package com.office.automation.bases.dao;
 
 import com.office.automation.bases.pojo.StringPojo;
-import com.office.automation.utils.StringUtils;
-import com.office.automation.utils.UUIDGenerator;
+import easybuild.core.utils.StringUtils;
+import easybuild.core.utils.UUIDGenerator;
 
 /**
  * Created by zhangfan on 2017/1/20.
