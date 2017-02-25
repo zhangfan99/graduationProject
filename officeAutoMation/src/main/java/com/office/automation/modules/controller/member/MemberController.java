@@ -14,14 +14,14 @@ public class MemberController{
 
     private static final String MODULE_NAME = "/member";
 
-    private static final String GO_MAIN = "/main";
+    private static final String GO_MAIN = "/toMain";
 
     @RequestMapping(value = GO_MAIN, method = RequestMethod.POST)
-    public ModelAndView goMain(String userName, String password){
-        if ("admin".equals(userName) && "123456".equals(password)){
-            return new ModelAndView("../main");
+    public String goMain(String username, String password){
+        if ("admin".equals(username) && "123456".equals(password)){
+            return "sys/main";
         }else {
-            return new ModelAndView("../login");
+            return "sys/login";
         }
     }
 }

@@ -15,6 +15,6 @@ public class SystemController {
 
     @RequestMapping(value = GO_LOGIN, method = RequestMethod.GET)
     public ModelAndView goLogin(){
-        return new ModelAndView("login");
+        return new ModelAndView("sys/login");
     }
 }

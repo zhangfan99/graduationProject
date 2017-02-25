@@ -44,7 +44,7 @@
     </script>
 </head>
 <body>
-<form name="loginForm" action="${path}/member/main.shtml" method="post">
+<form name="loginForm" action="${path}/toMain.json" method="post">
     <dl class="admin_login">
         <dt>
             <strong>站点后台管理系统</strong>

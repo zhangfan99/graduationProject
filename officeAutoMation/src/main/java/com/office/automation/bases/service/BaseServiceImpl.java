@@ -33,7 +33,4 @@ public abstract class BaseServiceImpl<T extends Pojo<A>, A extends Serializable>
         this.getDao().update(entity);
     }
 
-    public DataSet<T> convertToDataSet(List<T> list, Paging paging) {
-        return new DataSet(list, paging);
-    }
 }
